@@ -1,5 +1,4 @@
 import React from 'react';
-import Navigation from '../../Shared/Navigation/Navigation';
 import Contact from '../Contact/Contact';
 import Progress from '../Progress/Progress';
 import Project from '../Project/Project';
@@ -13,8 +12,9 @@ const Home = () => {
             <TopHeader></TopHeader>
             <About></About>
             <Progress></Progress>
-            <Contact></Contact>
             <Project></Project>
+            <Contact></Contact>
+           
         </div>
     );
 };

@@ -4,7 +4,7 @@ import selfImage from"../../../images/jewel1.png"
 import { FaDownload } from "react-icons/fa";
 const About = () => {
     return (
-        <section className ="aboutContainer pb-5">
+        <section className ="aboutContainer container-fluid pb-5">
             <section className= " row container-fluid ">
                 <div className="pt-5 pb-5 d-flex justify-content-center">
                     <h1 className= "text-light border-bottom w-10 pb-2 border-warning  ">ABOUT ME</h1>

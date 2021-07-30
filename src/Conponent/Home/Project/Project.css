@@ -1,7 +1,9 @@
-.ProjectContainer{
-    height:93vh;
-    background-image: url("../../../images/blob-scene-haikei.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+.ProjectContainer {
+  font-family: georgia, serif;
+  font-style: italic;
+  height: 75vh;
+  background-image: url("../../../images/serviceBg.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }

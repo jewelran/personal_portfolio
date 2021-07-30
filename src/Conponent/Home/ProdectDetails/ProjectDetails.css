@@ -1,0 +1,7 @@
+.cardContainer{
+   
+    transition: 0.5s ease all !important
+}
+.cardContainer:hover{
+    transform: translateY(-10px)
+}

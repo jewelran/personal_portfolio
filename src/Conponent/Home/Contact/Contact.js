@@ -76,7 +76,7 @@ const Contact = () => {
                     <textarea
                       name=""
                       id=""
-                      cols="75"
+                      cols="65"
                       rows="7"
                       placeholder="Leave a message here"
                     ></textarea>
@@ -150,7 +150,7 @@ const Contact = () => {
                     </div>
                 </a>
                    </div>
-                   <a target="_blank" href="https://jewelran.github.io/personal-portfolio/">
+                   <a target="_blank" href="https://confident-heyrovsky-c8a58c.netlify.app/">
                    <div className="socialMedia">
                       <FaGlobe />
                     </div>

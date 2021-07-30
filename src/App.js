@@ -12,6 +12,7 @@ import About from './Conponent/Home/About/About';
 import Navigation from './Conponent/Shared/Navigation/Navigation';
 import Contact from './Conponent/Home/Contact/Contact';
 import Progress from './Conponent/Home/Progress/Progress';
+import Footer from './Conponent/Shared/Footer/Footer';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
             <Progress></Progress>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );
