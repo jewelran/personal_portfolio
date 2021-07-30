@@ -1,0 +1,72 @@
+.contactContainer{
+    color: gray;
+    background-image: url("../../../images/circle-scatter-haikei.svg");
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+textarea, input{
+    background: transparent;
+    border: none;
+    box-shadow: 1px 5px 18px grey;
+    border-radius: 10px;
+    padding: 1rem;
+    color: gray;
+  
+}
+input{
+    width: 90%;
+}
+.submitBtn{
+    background: transparent;
+    border: none;
+    box-shadow: 1px 5px 18px grey;
+    border-radius: 12px;
+    padding: 1rem;
+    color: gray;
+    width: 50%;
+    font-size: 20px;
+    margin-top: 4rem;
+    transition:0.3s ease all
+}
+
+.submitBtn:hover{
+    color: #A7233A;
+    box-shadow: 1px 5px 20px #A7233A;
+    background: #041b2c;
+    transform:translateY(-5px)
+}
+.socialMedia{
+    position: relative;
+list-style: none;
+font-size: 50px;
+margin: 0px;
+padding:0px;
+transition: 0.5s ease all;
+color: gray;
+margin-right: 1rem;
+
+}
+.socialMedia:after{
+    transition: 0.5s ease all;
+    content:"";
+    position:absolute;
+    bottom: 0px;
+    left:0px;
+    width:0px;
+    height: 3px;
+    border-bottom: 3px solid red;
+
+}
+.socialMedia:hover:after{
+    width: 100%;
+}
+.socialMedia:hover{
+    color: red;
+    transform: translateY(-5px)
+}
+.addressTitle{
+    margin-left: -40px;
+}

@@ -1,0 +1,14 @@
+.topHeaderContainer{
+    height:93vh;
+    width: auto;
+    background-image: url("../../../images//wave-haikei.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 5rem;
+
+}
+.title{
+    font-size: 100px;
+    color: red;
+}

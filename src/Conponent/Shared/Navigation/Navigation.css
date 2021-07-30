@@ -1,0 +1,39 @@
+ul li {
+    margin-left: 40px;
+    padding:10px 20px;
+    border-radius: 10px;
+}
+.navBtn{
+    transition: 0.3s ease all
+}
+.navBtn:hover{
+    background:black;
+    color: white;
+   
+}
+.navBtn Link:hover{
+    color: white;
+}
+.active{
+    background:black;
+}
+.active:hover{
+    background:rgb(34, 5, 5)
+}
+.wonName{
+    position:relative;
+}
+.wonName:after{
+    content: "";
+    transition: 0.3s ease all;
+    position:absolute;
+    bottom: 0px;
+    left:0px;
+    height:3px;
+    background-color:red;
+    width:0px;
+   
+}
+.wonName:hover:after{
+    width: 100%;
+}
