@@ -11,7 +11,7 @@ import {
   FaMapMarkerAlt,
   FaPhoneAlt,
   FaRegEnvelope,
-  FaGlobeAfrica
+  FaGlobeAfrica,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Contact = () => {
@@ -90,71 +90,103 @@ const Contact = () => {
           <aside className="col-md-6  border-start border-dark border-3 p-5  d-flex justify-content-center align-item-center">
             <address className="">
               <div className="pb-5">
-
                 <div className="addressTitle">
-                <h2><span className= "text-danger"><FaMapMarkerAlt/> </span>Address</h2>
+                  <h2>
+                    <span className="text-danger">
+                      <FaMapMarkerAlt />{" "}
+                    </span>
+                    Address
+                  </h2>
                 </div>
-           
-                
-                    <p>Sylhet</p>
-                    <p>Bangladesh</p>
-                
+
+                <p>Sylhet</p>
+                <p>Bangladesh</p>
               </div>
               <div className="pb-4">
-              <div className="addressTitle">
-                <h2><span className= "text-danger"><FaPhoneAlt/> </span>Phone</h2>
+                <div className="addressTitle">
+                  <h2>
+                    <span className="text-danger">
+                      <FaPhoneAlt />{" "}
+                    </span>
+                    Phone
+                  </h2>
                 </div>
                 <big>01708648728</big>
                 <br />
                 <big>01778294965</big>
               </div>
               <div className=" pb-4">
-              <div className="addressTitle">
-                <h2><span className= "text-danger"><FaRegEnvelope/> </span>Email</h2>
+                <div className="addressTitle">
+                  <h2>
+                    <span className="text-danger">
+                      <FaRegEnvelope />{" "}
+                    </span>
+                    Email
+                  </h2>
                 </div>
                 <big>mdjewelrana6487@gmail.com</big>
               </div>
               <div className="">
-              <div className="addressTitle">
-                <h2><span className= "text-danger"><FaGlobe/> </span>Socials</h2>
+                <div className="addressTitle">
+                  <h2>
+                    <span className="text-danger">
+                      <FaGlobe />{" "}
+                    </span>
+                    Socials
+                  </h2>
                 </div>
                 <div className=" d-flex justify-content-center">
                   <div className="d-flex pr-0   w-100">
-                    <a target = "_blank"href="https://github.com/jewelran">
+                    <a target="_blank" href="https://github.com/jewelran">
                       {" "}
                       <div className="socialMedia">
                         <FaGithubSquare />
                       </div>
                     </a>
-                    <a target = "_blank" href="https://www.facebook.com/profile.php?id=100008066828982">
+                    <a
+                      target="_blank"
+                      href="https://www.facebook.com/profile.php?id=100008066828982"
+                    >
                       <div className="socialMedia">
                         <FaFacebookSquare />
                       </div>
                     </a>
-                   <a target = "_blank"href="https://twitter.com/Jewelra68822535">
-                   <div className="socialMedia">
-                      <FaTwitterSquare />
+                    <a
+                      target="_blank"
+                      href="https://twitter.com/Jewelra68822535"
+                    >
+                      <div className="socialMedia">
+                        <FaTwitterSquare />
+                      </div>
+                    </a>
+                    <div className="">
+                      <a
+                        target="_blank"
+                        href="https://www.instagram.com/jewelrana6609/"
+                      >
+                        <div className="socialMedia">
+                          <FaInstagram />
+                        </div>
+                      </a>
                     </div>
-                   </a>
-                 <div className="">
-                 <a target = "_blank"href="https://www.instagram.com/jewelrana6609/">
-                 <div className="socialMedia">
-                      <FaInstagram />
+                    <div className="">
+                      <a
+                        target="_blank"
+                        href="https://www.linkedin.com/in/jewel-rana-531a01204/"
+                      >
+                        <div className="socialMedia">
+                          <FaLinkedin />
+                        </div>
+                      </a>
                     </div>
-                 </a>
-                 </div>
-                   <div className="">
-                <a target = "_blank" href="https://www.linkedin.com/in/jewel-rana-531a01204/">
-                <div className="socialMedia">
-                      <FaLinkedin />
-                    </div>
-                </a>
-                   </div>
-                   <a target="_blank" href="https://confident-heyrovsky-c8a58c.netlify.app/">
-                   <div className="socialMedia">
-                      <FaGlobe />
-                    </div>
-                   </a>
+                    <a
+                      target="_blank"
+                      href="https://confident-heyrovsky-c8a58c.netlify.app/"
+                    >
+                      <div className="socialMedia">
+                        <FaGlobe />
+                      </div>
+                    </a>
                   </div>
                 </div>
               </div>

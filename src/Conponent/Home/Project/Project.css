@@ -1,9 +1,10 @@
 .ProjectContainer {
   font-family: georgia, serif;
   font-style: italic;
-  height: 75vh;
+  height: 93vh;
   background-image: url("../../../images/serviceBg.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  padding-top: 5rem;
 }
