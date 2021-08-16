@@ -18,12 +18,12 @@ const TopHeader = () => {
               </h1>
               <big className="text-secondary fs-2">
                 A PROFESSIONAL{" "}
-                <span className="text-light ">
+                <span className="text-light fs-4 ">
                   <Typical
                     loop={Infinity}
                     wrapper="b"
                     steps={[
-                      "JUNIOR WEB DEVELOPER ",
+                      " WEB DEVELOPER ",
                       1500,
                       "WEB DESIGNER",
                       1500,

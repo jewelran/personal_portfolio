@@ -36,9 +36,7 @@ const Contact = () => {
               <big>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Veritatis, nisi excepturi, quae mollitia assumenda neque
-                accusamus dignissimos commodi saepe, voluptatibus ex quibusdam
-                placeat asperiores ipsa recusandae alias consequatur? Libero,
-                debitis!
+               
               </big>
               <div className="mt-5">
                 <form onSubmit={handleSubmit(onSubmit)}>
@@ -111,9 +109,8 @@ const Contact = () => {
                     Phone
                   </h2>
                 </div>
-                <big>01708648728</big>
+                <big>+8801708648728</big>
                 <br />
-                <big>01778294965</big>
               </div>
               <div className=" pb-4">
                 <div className="addressTitle">

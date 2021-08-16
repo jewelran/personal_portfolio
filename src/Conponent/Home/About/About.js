@@ -26,7 +26,7 @@ const About = () => {
                   design and Development.
                 </p>
 
-                <a href="https://drive.google.com/drive/my-drive">
+                <a href="https://drive.google.com/file/d/1Fs4AGruaG7y0PSHOGaGd-J2c6HqKOY_q/view?usp=sharing">
                   <button className="submitBtn">
                     {" "}
                     DOWNLOAD CV{" "}
