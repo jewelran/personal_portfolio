@@ -113,7 +113,7 @@ const Progress = () => {
           </div>
         </aside>
 
-        <aside className="col-md-6">
+        <aside className="col-md-6 skillDevArea">
           <div className="">
             <h2 className="text-warning">ABOUT DEVELOPMENT</h2>
           </div>

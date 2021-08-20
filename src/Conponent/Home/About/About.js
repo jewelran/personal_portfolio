@@ -12,15 +12,15 @@ const About = () => {
           </h1>
         </div>
         <div className=" rew container-fluid">
-          <div className="d-flex mt-5">
+          <div className="d-flex mt-5 aboutWrapper">
             <aside className="col-md-6 ">
-              <img className="w-75" src={selfImage} alt="" />
+              <img className="w-75 aboutImg" src={selfImage} alt="" />
             </aside>
             <aside className="col-md-6 d-flex justify-content-center align-items-center">
               <div className="p-5 border-right border-start border-5 border-warning">
                 <h1 className="text-light mb-5">I am jewel rana</h1>
                 <p className="text-secondary fs-4 ">
-                  Junior front-end developer with 1+ years of experience
+                  Front-end developer with 1+ years of experience
                   designing and building responsive web design. Proficient CSS
                   and JS Framework React js, with extensive knowledge of UI/UX
                   design and Development.

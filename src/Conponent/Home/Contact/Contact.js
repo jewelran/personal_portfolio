@@ -29,10 +29,10 @@ const Contact = () => {
   return (
     <section className="contactContainer">
       <section className="container-fluid ">
-        <div className="mb-5 mt-5 container d-flex justify-content-center">
+        <div className="mb-5 mt-5 container d-flex justify-content-center contactWrapper">
           <aside className="col-md-6 p-3">
             <div className="">
-              <h1 className="mb-5">Get in touch</h1>
+              <h1 className="mb-5 "><span className="contactTitle">Get in touch</span></h1>
               <big>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Veritatis, nisi excepturi, quae mollitia assumenda neque
@@ -74,8 +74,7 @@ const Contact = () => {
                     <textarea
                       name=""
                       id=""
-                      cols="65"
-                      rows="7"
+                      className="textInput"
                       placeholder="Leave a message here"
                     ></textarea>
                   </div>

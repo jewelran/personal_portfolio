@@ -9,13 +9,14 @@ import Typography from "@material-ui/core/Typography";
 import "./ProjectDetails.css";
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    maxWidth: 520,
     backgroundColor: "gray",
   },
   media: {
     marginTop: 10,
     height: 140,
   },
+
 });
 const ProjectDetails = ({ project }) => {
   const classes = useStyles();

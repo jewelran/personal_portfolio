@@ -8,17 +8,17 @@ const TopHeader = () => {
   return (
     <section className="topHeaderContainer">
       <section className="row d-flex justify-content-center container-fluid pt-5">
-        <div className="container d-flex align-item-center">
-          <aside className="col-md-6  d-flex justify-content-center align-items-center">
-            <aside className="">
+        <div className="container d-flex align-item-center topWrapper">
+          <aside className="col-md-6 headerTitle  d-flex justify-content-center align-items-center">
+            <div className="">
               <h1 className="title text-danger ">
                 <span className="text-warning">I AM</span>
                 <br />
                 <span>JEWEL RANA</span>
               </h1>
-              <big className="text-secondary fs-2">
-                A PROFESSIONAL{" "}
-                <span className="text-light fs-4 ">
+              <big className="text-secondary fs-2 ">
+                <span className = "typicalSide">A PROFESSIONAL</span>{" "}
+                <span className="text-light fs-4 typical ">
                   <Typical
                     loop={Infinity}
                     wrapper="b"
@@ -37,10 +37,10 @@ const TopHeader = () => {
                   <button className="submitBtn">Hire me</button>
                 </Link>
               </div>
-            </aside>
+            </div>
           </aside>
-          <aside className="col-md-6 container">
-            <img className="w-75 p-5 rounded" src={selfImg} alt="" />
+          <aside className="col-md-6 container  ">
+            <img className="w-75 p-5 rounded headerImg " src={selfImg} alt="" />
           </aside>
         </div>
       </section>

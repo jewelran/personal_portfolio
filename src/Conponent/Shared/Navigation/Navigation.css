@@ -41,3 +41,8 @@ ul li {
 .wonName:hover:after{
     width: 100%;
 }
+@media  screen and (max-width: 700px) {
+    .navContainer{
+        width: 100% !important;
+    }
+}

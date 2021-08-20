@@ -9,3 +9,15 @@
     font-weight: normal;
   
 }
+@media  screen and (max-width: 700px){
+    .aboutContainer{
+        width: 100% !important;
+        height: 100%
+    }
+    .aboutWrapper{
+        display:block !important;
+    }
+    .aboutImg{
+        width: 100% !important;
+    }
+}

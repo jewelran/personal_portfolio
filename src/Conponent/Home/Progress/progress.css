@@ -11,3 +11,12 @@
   font-weight: normal;
   padding-top: 5rem;
 }
+@media  screen and (max-width: 700px) {
+  .progressContainer{
+    width: 100% !important;
+    height: 100%  !important;
+  }
+  .skillDevArea{
+    margin-top: 5rem;
+  }
+}

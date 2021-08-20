@@ -1,76 +1,116 @@
-.contactContainer{
-    color: gray;
-    background-image: url("../../../images/circle-scatter-haikei.svg");
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    background-size: cover;
+.contactContainer {
+  color: gray;
+  background-image: url("../../../images/circle-scatter-haikei.svg");
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  font-family: georgia, serif;
+  font-style: italic;
+  font-weight: normal;
+}
+textarea,
+input {
+  background: transparent;
+  border: none;
+  box-shadow: 1px 5px 18px grey;
+  border-radius: 10px;
+  padding: 1rem;
+  color: gray;
+}
+input {
+  width: 90%;
+}
+.submitBtn {
+  background: transparent;
+  border: none;
+  box-shadow: 1px 5px 18px grey;
+  border-radius: 12px;
+  padding: 1rem;
+  color: gray;
+  width: 50%;
+  font-size: 20px;
+  margin-top: 4rem;
+  transition: 0.3s ease all;
+}
+
+.submitBtn:hover {
+  color: #a7233a;
+  box-shadow: 1px 5px 20px #a7233a;
+  background: #041b2c;
+  transform: translateY(-5px);
+}
+.socialMedia {
+  position: relative;
+  list-style: none;
+  font-size: 50px;
+  margin: 0px;
+  padding: 0px;
+  transition: 0.5s ease all;
+  color: gray;
+  margin-right: 1rem;
+}
+.socialMedia:after {
+  transition: 0.5s ease all;
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 0px;
+  height: 3px;
+  border-bottom: 3px solid red;
+}
+.socialMedia:hover:after {
+  width: 100%;
+}
+.socialMedia:hover {
+  color: red;
+  transform: translateY(-5px);
+}
+.addressTitle {
+  margin-left: -40px;
+}
+
+@media screen and (max-width: 700px) {
+  .contactContainer {
+    width: 100% !important;
+    height: 100%;
     background-position: center center;
-    background-repeat: no-repeat;
-    font-family: georgia, serif;
-    font-style: italic;
-    font-weight: normal;
-  
-}
-textarea, input{
-    background: transparent;
-    border: none;
-    box-shadow: 1px 5px 18px grey;
-    border-radius: 10px;
+  }
+  .contactWrapper {
+    display: block !important;
     padding: 1rem;
-    color: gray;
-  
-}
-input{
-    width: 90%;
-}
-.submitBtn{
-    background: transparent;
-    border: none;
-    box-shadow: 1px 5px 18px grey;
-    border-radius: 12px;
-    padding: 1rem;
-    color: gray;
-    width: 50%;
-    font-size: 20px;
-    margin-top: 4rem;
-    transition:0.3s ease all
-}
-
-.submitBtn:hover{
-    color: #A7233A;
-    box-shadow: 1px 5px 20px #A7233A;
-    background: #041b2c;
-    transform:translateY(-5px)
-}
-.socialMedia{
-    position: relative;
-list-style: none;
-font-size: 50px;
-margin: 0px;
-padding:0px;
-transition: 0.5s ease all;
-color: gray;
-margin-right: 1rem;
-
-}
-.socialMedia:after{
-    transition: 0.5s ease all;
-    content:"";
-    position:absolute;
-    bottom: 0px;
-    left:0px;
-    width:0px;
-    height: 3px;
-    border-bottom: 3px solid red;
-
-}
-.socialMedia:hover:after{
-    width: 100%;
-}
-.socialMedia:hover{
-    color: red;
-    transform: translateY(-5px)
-}
-.addressTitle{
-    margin-left: -40px;
+  }
+  .textInput {
+    width: 90% !important;
+    float: left;
+    min-height: 100px;
+    outline: none;
+    resize: none;
+  }
+  .submitBtn {
+    background: rgb(4, 133, 167);
+    background: -moz-linear-gradient(
+      279deg,
+      rgba(4, 133, 167, 1) 10%,
+      rgba(15, 110, 232, 1) 62%
+    );
+    background: -webkit-linear-gradient(
+      279deg,
+      rgba(4, 133, 167, 1) 10%,
+      rgba(15, 110, 232, 1) 62%
+    );
+    background: linear-gradient(
+      279deg,
+      rgba(4, 133, 167, 1) 10%,
+      rgba(15, 110, 232, 1) 62%
+    );
+    color:black;
+    font-weight: bold;
+  }
+  .contactTitle{
+      border-bottom: 2px solid orangered;
+      padding-bottom: 2px;
+  }
 }

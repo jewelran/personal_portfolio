@@ -4,3 +4,8 @@
 .cardContainer:hover {
   transform: translateY(-10px);
 }
+@media screen and (max-width: 700px){
+  .cardContainer{
+    width: 100% !important;
+  }  
+}

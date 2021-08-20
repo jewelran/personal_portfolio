@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./Navigation.css";
 const Navigation = () => {
   return (
-    <div className="bg-dark fixed-top">
+    <div className="bg-dark fixed-top navContainer">
       <nav class="navbar navbar-expand-lg container navbar-light d-flex">
         <div class="container-fluid">
           <Link class="navbar-brand text-light wonName" to="/home">
