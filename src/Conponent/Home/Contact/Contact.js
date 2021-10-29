@@ -32,11 +32,12 @@ const Contact = () => {
         <div className="mb-5 mt-5 container d-flex justify-content-center contactWrapper">
           <aside className="col-md-6 p-3">
             <div className="">
-              <h1 className="mb-5 "><span className="contactTitle">Get in touch</span></h1>
+              <h1 className="mb-5 ">
+                <span className="contactTitle">Get in touch</span>
+              </h1>
               <big>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Veritatis, nisi excepturi, quae mollitia assumenda neque
-               
               </big>
               <div className="mt-5">
                 <form onSubmit={handleSubmit(onSubmit)}>
