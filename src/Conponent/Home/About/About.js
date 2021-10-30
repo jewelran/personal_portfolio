@@ -7,9 +7,14 @@ const About = () => {
     <section className="aboutContainer container-fluid pb-5">
       <section className=" row container-fluid ">
         <div className="pt-5 pb-5 d-flex justify-content-center">
-          <h1 className="text-light border-bottom w-10 pb-2 border-warning  ">
+          <div className="border-bottom border-warning">
+          <h1 className="text-light  w-10 pb-2   ">
             ABOUT ME
           </h1>
+          <p className="text-white text-center">Why choose me?</p>
+          </div>
+       
+        
         </div>
         <div className=" rew container-fluid">
           <div className="d-flex mt-5 aboutWrapper">

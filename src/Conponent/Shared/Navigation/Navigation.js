@@ -7,8 +7,8 @@ const Navigation = () => {
       <nav class="navbar navbar-expand-lg container navbar-light d-flex">
         <div class="container-fluid">
           <Link class="navbar-brand text-light wonName" to="/home">
-            <span className="text-warning fs-2 ">
-              <span className="text-danger fs-1 border-bottom">JE</span>WEL RANA
+            <span className="text-warning fs-1 ">
+              <span className="text-danger fs-1">JE</span>WEL RANA
             </span>
           </Link>
           <button

@@ -18,6 +18,9 @@ const useStyles = makeStyles({
   },
 
 });
+const projectHandler = () => {
+  alert("no development")
+}
 const ProjectDetails = ({ project }) => {
   const classes = useStyles();
   return (
@@ -41,7 +44,7 @@ const ProjectDetails = ({ project }) => {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <button className="submitBtn pt-3 mt-0 bg-dark fs-5">PROJECT</button>
+        <button onClick={() => projectHandler()} className="submitBtn pt-3 mt-0 bg-dark fs-5">PROJECT</button>
       </CardActions>
     </Card>
   );

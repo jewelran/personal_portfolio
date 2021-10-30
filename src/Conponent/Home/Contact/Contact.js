@@ -11,9 +11,7 @@ import {
   FaMapMarkerAlt,
   FaPhoneAlt,
   FaRegEnvelope,
-  FaGlobeAfrica,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
 const Contact = () => {
   const {
     register,
@@ -134,7 +132,7 @@ const Contact = () => {
                 </div>
                 <div className=" d-flex justify-content-center">
                   <div className="d-flex pr-0   w-100">
-                    <a target="_blank" href="https://github.com/jewelran">
+                    <a target="_blank" rel="noreferrer" href="https://github.com/jewelran">
                       {" "}
                       <div className="socialMedia">
                         <FaGithubSquare />
@@ -142,6 +140,7 @@ const Contact = () => {
                     </a>
                     <a
                       target="_blank"
+                      rel="noreferrer"
                       href="https://www.facebook.com/profile.php?id=100008066828982"
                     >
                       <div className="socialMedia">
@@ -150,7 +149,8 @@ const Contact = () => {
                     </a>
                     <a
                       target="_blank"
-                      href="https://twitter.com/Jewelra68822535"
+                      rel="noreferrer"
+                    href="https://twitter.com/Jewelra68822535"
                     >
                       <div className="socialMedia">
                         <FaTwitterSquare />
@@ -159,6 +159,7 @@ const Contact = () => {
                     <div className="">
                       <a
                         target="_blank"
+                        rel="noreferrer"
                         href="https://www.instagram.com/jewelrana6609/"
                       >
                         <div className="socialMedia">
@@ -169,6 +170,7 @@ const Contact = () => {
                     <div className="">
                       <a
                         target="_blank"
+                        rel="noreferrer"
                         href="https://www.linkedin.com/in/jewel-rana-531a01204/"
                       >
                         <div className="socialMedia">
@@ -178,6 +180,7 @@ const Contact = () => {
                     </div>
                     <a
                       target="_blank"
+                      rel="noreferrer"
                       href="https://confident-heyrovsky-c8a58c.netlify.app/"
                     >
                       <div className="socialMedia">
